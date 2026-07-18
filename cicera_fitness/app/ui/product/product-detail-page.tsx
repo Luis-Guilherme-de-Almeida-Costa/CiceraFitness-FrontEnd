@@ -12,6 +12,7 @@ import {
 } from "lucide-react";
 import Accordion from "@/app/ui/shared/accordion";
 import ProductCard from "@/app/ui/home/product-card";
+import SizeGuideModal from "./size-guide-modal";
 
 export default function ProductDetailPage({
   product, wishlist, onWishlist, onCart, onGoHome, relatedProducts, onSelect,

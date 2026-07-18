@@ -6,13 +6,10 @@ import { fmt } from "@/app/lib/utils";
 import ProductCard from "./product-card";
 import { Product } from "@/app/lib/definitions";
 import {
-  ShoppingCart, Heart, Search, Menu, X, User, ChevronRight,
+  ShoppingCart, ChevronRight,
   Star, Truck, ShieldCheck, Award, Headphones, Instagram,
   ChevronLeft, Zap, ArrowRight, Check, Mail, Phone,
-  Clock, Share2, Minus, Plus, ChevronDown, ChevronUp,
-  RotateCcw, AlertCircle, ThumbsUp, ZoomIn, Trash2,
-  Bookmark, Tag, Lock, RefreshCw, Gift,
-  Package, MapPin, CreditCard, Bell,
+  Clock
 } from "lucide-react";
 
 export default function HomePage({ wishlist, onWishlist, onCart, onSelect }: {

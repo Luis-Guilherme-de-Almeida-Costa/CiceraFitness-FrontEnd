@@ -15,7 +15,7 @@ export default function SizeGuideModal({ onClose }: { onClose: () => void }) {
             <div className="text-center text-gray-400">
               <User size={48} className="mx-auto mb-2 opacity-30" />
               <p className="text-sm">Meça busto, cintura e quadril</p>
-            </div>
+            </div> 
           </div>
           <table className="w-full text-sm">
             <thead>
